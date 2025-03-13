@@ -1,4 +1,4 @@
-# Project Proposal: Customer Personality Analysis using Machine Learning
+# Customer Personality Analysis using Machine Learning
 
 ## Table of Contents
 - [Project Introduction](#project-introduction)
