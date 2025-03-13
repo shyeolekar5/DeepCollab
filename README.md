@@ -24,7 +24,13 @@ The dataset, sourced from [Kaggle](https://www.kaggle.com/datasets/imakash3011/c
 - **Engagement**: Frequency of purchases made via the web, catalogs, and physical stores, along with website visit frequency
 - **Recency & Complaints**: Last purchase recency and whether a customer has raised complaints in the past two years
 
+### Data Set Limitations: 
+
 ## Objectives and Business Case
+The dataset with 2240 rows and 29 attributes is mostly clean. The below is a list of limitations on dataset.
+- **Missing income data**: Out of 2240 rows, 24 rows don’t have income.
+- **Limited transaction history**: The dataset covers spending from the last 2 years, but it lacks specific timestamps for individual transactions.
+- **Limited information**: No information on product preferences beyond spending categories (e.g., no breakdown by products’ brands). No customer feedback data (aside from complaints), which could help refine engagement strategies.
 
 ### Stakeholders & Their Interests
 - **Marketing Teams**: Optimize campaigns by targeting the right customer segments.
@@ -43,13 +49,15 @@ Our project aims to:
 3. **Provide insights** on optimizing marketing efforts to increase customer engagement and revenue.
 
 ## Risks and Uncertainties
-- **Data Set Size**: The dataset consists of only 2,240 records, which may limit model performance and generalizability.
+- **Data Set Size and Limitations**: The dataset consists of only 2,240 records, which may limit model performance and generalizability.
 - **Model Generalization**: Clustering and predictive models might not generalize well across different customer groups.
 - **External Factors**: Economic changes, seasonal trends, or competitive actions could influence customer behavior in ways not captured by historical data.
 
 ## Methods & Technologies
 - **Exploratory Data Analysis**
+- **Data Cleaning**: Handle missing values and outliers, Remove Duplicates, and Fix DataType Issues
 - **Data Preprocessing**: Normalize/scale numerical features and encoding categorical variables.
+- **Feature Engineering**: Derive new features for example Total Spending
 - **Clustering Techniques**: K-Means to segment customers.
 - **Predictive Modeling**
 - **Evaluation Metrics**
