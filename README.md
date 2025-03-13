@@ -25,7 +25,6 @@ The dataset, sourced from [Kaggle](https://www.kaggle.com/datasets/imakash3011/c
 - **Recency & Complaints**: Last purchase recency and whether a customer has raised complaints in the past two years
 
 ## Objectives and Business Case
-Can we classify customers as high-value or budget shoppers based on their purchasing behavior and promotional usage? Additionally, can we predict their likelihood of responding to future marketing campaigns using past data?
 
 ### Stakeholders & Their Interests
 - **Marketing Teams**: Optimize campaigns by targeting the right customer segments.
@@ -37,10 +36,10 @@ Can we classify customers as high-value or budget shoppers based on their purcha
 - **Customer-Centric Approach**: Personalization of marketing efforts to improve customer experience.
 - **Data-Driven Decision Making**: Leveraging machine learning to extract insights and improve business strategies.
 
-### Expected Project Outcomes
+### Objectives
 Our project aims to:
-1. **Segment customers** based on purchasing behavior and demographics using clustering techniques.
-2. **Develop a predictive model** to analyze the effectiveness of promotional campaigns.
+1. **Segment customers** based on purchasing behavior and demographics using clustering techniques. For example, can we classify customers as high-value or budget shoppers based on their purchasing behavior and promotional usage?
+2. **Develop a predictive model** to analyze the effectiveness of promotional campaigns. For example, can we predict their likelihood of responding to future marketing campaigns using past data?
 3. **Provide insights** on optimizing marketing efforts to increase customer engagement and revenue.
 
 ## Risks and Uncertainties
