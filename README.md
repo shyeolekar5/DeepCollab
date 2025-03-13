@@ -25,12 +25,12 @@ The dataset, sourced from [Kaggle](https://www.kaggle.com/datasets/imakash3011/c
 - **Recency & Complaints**: Last purchase recency and whether a customer has raised complaints in the past two years
 
 ### Data Set Limitations: 
-
-## Objectives and Business Case
 The dataset with 2240 rows and 29 attributes is mostly clean. The below is a list of limitations on dataset.
 - **Missing income data**: Out of 2240 rows, 24 rows don’t have income.
 - **Limited transaction history**: The dataset covers spending from the last 2 years, but it lacks specific timestamps for individual transactions.
 - **Limited information**: No information on product preferences beyond spending categories (e.g., no breakdown by products’ brands). No customer feedback data (aside from complaints), which could help refine engagement strategies.
+
+## Objectives and Business Case
 
 ### Stakeholders & Their Interests
 - **Marketing Teams**: Optimize campaigns by targeting the right customer segments.
