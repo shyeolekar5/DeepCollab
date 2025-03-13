@@ -25,6 +25,7 @@ The dataset, sourced from [Kaggle](https://www.kaggle.com/datasets/imakash3011/c
 - **Recency & Complaints**: Last purchase recency and whether a customer has raised complaints in the past two years
 
 ## Objectives and Business Case
+Can we classify customers as high-value or budget shoppers based on their purchasing behavior and promotional usage? Additionally, can we predict their likelihood of responding to future marketing campaigns using past data?
 
 ### Stakeholders & Their Interests
 - **Marketing Teams**: Optimize campaigns by targeting the right customer segments.
