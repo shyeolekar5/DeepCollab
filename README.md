@@ -63,7 +63,7 @@ This project uses the following Python libraries:
 
 `Echo`
 
-<mark>The dataset with 2240 rows and 29 attributes is mostly clean. The below is a list of limitations on dataset.<mark>
+<mark>This dataset has 2240 rows and 29 attributes - it is mostly clean. The following are limitations found on the dataset:<mark>
 
 <mark>- **Missing income data**: 24 out of 2240 rows don’t have an income value.<mark>
 
@@ -74,6 +74,8 @@ This project uses the following Python libraries:
 ## Risks and Uncertainties
 
 `Echo`
+
+<mark>The following are risks and uncertainties we have about the dataset:<mark>
 
 <mark>- **Data Set Size and Limitations**: The dataset consists of only 2,240 records, which may limit model performance and generalizability.<mark>
 
@@ -89,6 +91,8 @@ This project uses the following Python libraries:
 
 `Echo`
 
+<mark>The following data cleaning and transformations were conducted on the dataset:<mark>
+
 <mark>- Missing values were handled, duplicates were removed, data type issues were fixed, and outliers were handled.<mark>
 
 <mark>- Data distributions were analyzed and and potential data quality issues were identified.<mark>
@@ -99,17 +103,41 @@ This project uses the following Python libraries:
 
 `Echo`
 
+<mark>Minor feature engineering was conducted on the dataset:
+
 <mark>- New features were created including total spend, campaign response rate, shopping frequency, household size, and customer lifetime value metrics.<mark>
 
 <mark>- Features were scaled and analyzed to better understand their distributions and relationships. Key steps included scaling numerical features, generating a correlation matrix, and analyzing various data visualizations.<mark>
 
 ## Preprocessing and Pipeline
 
-<mark>(approach only, no findings)<mark>
+`Shraddha - review and confirm that pipeline was only used on clustering models`
+
+<mark>Precprocessing was conducted on the dataset and imported into a master pipeline that was used for both clustering models. The following approach was taken:<mark>
+
+<mark>- Additional feature engineering was conducted on top of the feature engineering done in our EDA.<mark>
+
+<mark>- Data preprocessing was conducted on the dataset.<mark>
+
+<mark>- Both steps were chained together in a single object to ensure that all steps were applied sequentially and that data leakage was avoided.<mark>
 
 ## Model Exploration and Selection
 
-<mark>(approach only, no findings)<mark>
+`Lauren and Frances`
+
+<mark>Our approach to clustering each customer into "shopper profiles" consisted of testing out two different clustering methods, k-means and DBSCAN, and selecting the high performing model to perform our analysis.<mark>
+
+### DBSCAN Clustering
+
+`Lauren`
+
+<mark>[x]<mark>
+
+### K-Means Clustering
+
+`Frances`
+
+<mark>[x]<mark>
 
 ## Feature Selection
 
@@ -123,37 +151,52 @@ This project uses the following Python libraries:
 
 `Echo`
 
-<mark>The dataset was checked for missing values, duplicates, outliers, and inconsistent values. Data distributions were analyzed and and potential data quality issues were identified.<mark>
+<mark>The dataset was checked for missing values, duplicates, outliers, and inconsistent values. Data distributions were analyzed and potential data quality issues were identified.<mark>
 
 ### Data Cleaning and Transformation
 
 `Echo`
 
-<mark>Missing values were handled, duplicates were removed, data type issues were fixed, and outliers were handled. The following transformations were completed on the data set:<mark>
+<mark>Missing values were handled, duplicates were removed, data type issues were fixed, and outliers were handled. The following are some of the key transformations that were completed on the data set:<mark>
+
+<mark>- Missing values in Income were replaced with the column's median<mark>
 
 <mark>- Date columns were converted to datetime format.<mark>
 
+<mark>- Marital_Status categories were transformed into either 'Single_Household', 'Couples' or 'Unknown'.<mark>
+
 <mark>- Age column was created from Year_Birth.<mark>
 
-<mark>- Income column<mark>
+`Echo - please confirm if all or some string values were encoded`
 
-<mark>  - Missing values were filled with Income median<mark>
+<mark>- Attributes containing string values were encoded into numerical values.<mark>
 
-<mark>  - Outliers were removed (based on observation max is 666666)<mark>
 
-`Echo - did we do anything with the marital status categories? If this is just an observation we can remove or move to uncertainties`
+### Feature Engineering
 
-<mark>-Marital_Status categories ('Absurd', 'YOLO') is unusual<mark>
+`Echo`
 
 <mark>For more information on our EDA, please look at the [x] file in our repo<mark>
 
 ## Preprocessing and Pipeline
+
+`Shraddha`
 
 <mark>(results)<mark>
 
 <mark>For more information on our preprocessing method, please look at the [x] file in our repo<mark>
 
 ## Deep Learning Modeling
+
+### K-Means Clustering
+
+`Shraddha and Frances`
+
+<mark>(results)<mark>
+
+<mark>For more information on our approach to modeling, please look at the [x] file in our repo<mark>
+
+`Kevin`
 
 <mark>(results)<mark>
 
@@ -168,6 +211,8 @@ This project uses the following Python libraries:
 <mark>**Key Business Takeaways**<mark>
 
 # Team Information
+
+`Lauren`
 
 ### Team Members
 Team Member | GitHub | Email | Role & Responsibilities | Video
