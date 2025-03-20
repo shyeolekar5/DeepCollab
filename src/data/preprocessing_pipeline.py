@@ -11,7 +11,7 @@ numerical_columns = ['Income', 'MntWines', 'MntFruits', 'MntMeatProducts', 'MntF
                      'MntGoldProds', 'NumDealsPurchases', 'NumWebPurchases', 'NumCatalogPurchases', 'NumStorePurchases',
                      'NumWebVisitsMonth', 'Age', 'Total_Children', 'Total_Household_Size',
                      'Total_Spending', 'Total_Purchase_Num', 'Discount_Dependency', 'Loyalty_Months',
-                     'Campaign_Response_Rate', 'Shopping_Frequency']
+                     'Campaign_Response_Rate', 'Shopping_Frequency', 'Recency']
 categorical_columns = ['Education', 'Marital_Status_Grouped']
 
 def preprocess_data(df, numerical_columns, categorical_columns, columns_to_drop):
