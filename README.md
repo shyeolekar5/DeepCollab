@@ -1,39 +1,46 @@
-![image](https://github.com/user-attachments/assets/ea5fd03f-66d6-48ee-a566-1cbb195a6094)# Customer Personality Analysis using Machine Learning
+# Customer Personality Analysis using Machine Learning
+
+<mark>Highlighted text needs to be edited<mark>
+
+`Text in a code box needs to be reviewed/spellchecked`
+
+Text without highlighting or a code box is complete
 
 ## Table of Contents
-- [Project Introduction](#project-introduction)
-- [Dataset Introduction](#dataset-introduction)
-- [Objectives and Business Case](#objectives-and-business-case)
-- [Risks and Uncertainties](#risks-and-uncertainties)
+- [Project Overview and Objective](#project-overview-and-objective)
+- [Understanding The Data](#understanding-the-data)
 - [Methods & Technologies](#methods--technologies)
-- [Conclusion](#conclusion)
-- [Team Members](#team-members)
+- [Key Findings & Conclusion](#key-findings--conclusion)
+- [Team Information](#team-information)
 
 # Project Overview and Objective
 
-<mark>(intro & business case)<mark>
+`Understanding a customer's shopping personality is a crucial step in developing a personalized marketing strategy for your customer. Our project aims to help businesses better understand their customers by providing an in-depth analysis of "customer personalities". By gaining a deeper understanding of these personalities, businesses can tailor their marketing efforts to target the right customers with the right content at the right time.`
 
-<mark>Customer Personality Analysis is a crucial step in understanding consumer behavior and tailoring business strategies accordingly. This project aims to segment customers using clustering techniques and develop a predictive model to assess the effectiveness of promotional campaigns. By leveraging machine learning, we seek to provide actionable insights that enhance marketing efficiency and customer satisfaction.<mark>
+`Our approach involves using K-Means clustering to segment customers into distinct "shopping profiles", and a [type of predictive model we used] predictive model to assess how likely each customer is to respond to a future marketing campaign. This allows marketing teams to optimize their resources by better understanding how to engage with their customers and by focusing on the segments most likely to repond, thereby improving the effectiveness of their campaigns and maximizing ROI.`
 
-## Business Case Objective
+`Through this analysis, businesses will gain valuable insights into their customer base, enabling them to refine their marketing strategies and deliver more personalized, targeted experiences. This project ultimately aims to help businesses:`
 
-<mark>[x]<mark>
+`1. Better understand how to engage with each profile, and aim to **increase customer engagement** through tailored interactions that resonate with each customer's individual preferences and behaviors.`
+
+`2. **Drive sales** by implementing hyper-personalized marketing strategies that align with the specific needs and desires of each profile.`
+
+`3. **Optimize marketing resources and efforts** by effectively targeting each profile, and ensuring that campaigns are directed at the most responsive and relevant customers.`
 
 ### Stakeholders & Their Interests
-<mark>- **Marketing Teams**: Optimize campaigns by targeting the right customer segments.<mark>
-<mark>- **Business Executives**: Improve decision-making regarding product offerings and promotions.<mark>
-<mark>- **Data Science Teams**: Implement machine learning models to refine customer segmentation and predictive analytics.<mark>
+`- **Marketing Teams**: Optimize campaigns by targeting the right customers with the right content at the right time.`
+
+`- **Business Executives**: Improve decision-making regarding product offerings and promotions.`
+
+`- **Data Science Teams**: Implement machine learning models to refine customer segmentation and predictive analytics.`
+
 
 ### Business Value
-<mark>- **Enhanced Marketing Strategies**: More targeted and cost-effective promotional campaigns.<mark>
-<mark>- **Customer-Centric Approach**: Personalization of marketing efforts to improve customer experience.<mark>
-<mark>- **Data-Driven Decision Making**: Leveraging machine learning to extract insights and improve business strategies.<mark>
+`- **Enhanced Marketing Strategies**: More targeted and cost-effective promotional campaigns.`
 
-### Objectives
-<mark>Our project aims to:<mark>
-<mark>1. **Segment customers** based on purchasing behavior and demographics using clustering techniques. For example, can we classify customers as high-value or budget shoppers based on their purchasing behavior and promotional usage?<mark>
-<mark>2. **Develop a predictive model** to analyze the effectiveness of promotional campaigns. For example, can we predict their likelihood of responding to future marketing campaigns using past data?<mark>
-<mark>3. **Provide insights** on optimizing marketing efforts to increase customer engagement and revenue.<mark>
+`- **Customer-Centric Approach**: Personalization of marketing efforts to improve customer experience.`
+
+`- **Data-Driven Decision Making**: Leveraging machine learning to extract insights and improve business strategies.`
 
 # Understanding The Data
 
@@ -93,19 +100,25 @@
 
 <mark>(approach only, no findings)<mark>
 
-# Key Findings
+# Key Findings & Conclusion
 
 ## Exploratory Data Analysis
 
 <mark>(results)<mark>
 
+<mark>For more information on our EDA, please look at the [x] file in our repo<mark>
+
 ## Preprocessing and Pipeline
 
 <mark>(results)<mark>
 
+<mark>For more information on our preprocessing method, please look at the [x] file in our repo<mark>
+
 ## Deep Learning Modeling
 
 <mark>(results)<mark>
+
+<mark>For more information on our approach to modeling, please look at the [x] file in our repo<mark>
 
 ## Conclusion
 
@@ -115,7 +128,7 @@
 
 <mark>**Key Business Takeaways**<mark>
 
-# Team
+# Team Information
 
 ### Team Members
 Team Member | GitHub | Email | Role & Responsibilities | Video
