@@ -111,7 +111,7 @@ This project uses the following Python libraries:
 
 ## Preprocessing and Pipeline
 
-`Shraddha - review and confirm that pipeline was only used on clustering models`
+`Shraddha - add pipeline viz, review and confirm that pipeline was only used on clustering models`
 
 <mark>Precprocessing was conducted on the dataset and imported into a master pipeline that was used for both clustering models. The following approach was taken:<mark>
 
@@ -136,6 +136,8 @@ This project uses the following Python libraries:
 ### K-Means Clustering
 
 `Frances`
+
+`mention that we tried with experimented with adding pipeline for automation after`
 
 <mark>[x]<mark>
 
