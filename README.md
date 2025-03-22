@@ -3,7 +3,8 @@
 - [Project Overview and Objective](#project-overview-and-objective)
 - [Understanding The Data](#understanding-the-data)
 - [Methods & Technologies](#methods--technologies)
-- [Key Findings & Conclusion](#key-findings--conclusion)
+- [Key Findings](#key-findings)
+- [Conclusion](#conclusion)
 - [Team Information](#team-information)
 
 ## Project Overview and Objective
@@ -128,7 +129,7 @@ We plan to continue working on refining the pipeline and automating the steps.
 
 For more details on our pipeline automation, please download the [5_Kmeans_clustering_with_pipeline](https://github.com/shyeolekar5/DeepCollab/blob/main/5_Kmeans_clustering_with_pipeline.ipynb) file in our repo.
 
-## Key Findings & Conclusion
+## Key Findings
 ### Exploratory Data Analysis
 Our EDA found the following insights about high-value shoppers and budget-conscious shoppers:
 - High-value shoppers
@@ -148,7 +149,7 @@ Below is a comprehensive correlation matrix of customer features.
 
 For more details on our EDA, please download the [1_EDA](https://github.com/shyeolekar5/DeepCollab/blob/main/1_EDA) file in our repo.
 
-### Deep Learning Modeling
+### Machine Learning Modeling
 #### K-Means Clustering
 After a thorough exploration of different clustering models and approaches, we decided to use a **K-means clustering model without a pipeline.** Our clustering model identified five distinct customer segments - differentiated by spending patterns, income levels, discount dependency, household size, campaign responsiveness, and web engagement. 
 
