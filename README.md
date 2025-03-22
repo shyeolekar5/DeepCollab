@@ -230,17 +230,17 @@ Below are the individual and comparisons of each model's performance and key fin
 
 **Key findings from our Logistic Regression Model:**
 1. High True Negative Rate (315 True Negatives)
-- The model correctly identified 315 customers who did not respond to the marketing campaign.
-- This suggests that the model is good at recognizing non-responders, which is beneficial for reducing wasted marketing efforts.
+  - The model correctly identified 315 customers who did not respond to the marketing campaign.
+  - This suggests that the model is good at recognizing non-responders, which is beneficial for reducing wasted marketing efforts.
 2. Moderate False Positive Rate (60 False Positives)
-- The model incorrectly predicted 60 customers as responders when they actually did not respond.
-- This means the campaign could target some customers who are unlikely to respond, potentially leading to inefficient marketing resource allocation.
+  - The model incorrectly predicted 60 customers as responders when they actually did not respond.
+  - This means the campaign could target some customers who are unlikely to respond, potentially leading to inefficient marketing resource allocation.
 3. Strong Recall for Responders (52 True Positives)
-- The model correctly predicted 52 actual responders, meaning it effectively captures a large portion of customers who will respond.
-- This is valuable because identifying actual responders helps in maximizing marketing impact.
+  - The model correctly predicted 52 actual responders, meaning it effectively captures a large portion of customers who will respond.
+  - This is valuable because identifying actual responders helps in maximizing marketing impact.
 4. False Negatives (14 Missed Responders)
-- There are 14 customers who would have responded but were misclassified as non-responders.
-- These potential customers might be missed opportunities if marketing efforts are not extended to them.
+  - There are 14 customers who would have responded but were misclassified as non-responders.
+  - These potential customers might be missed opportunities if marketing efforts are not extended to them.
 
 **Random Forest Classifier Model**
 
@@ -254,17 +254,17 @@ Below are the individual and comparisons of each model's performance and key fin
 
 **Key findings from our Random Forest Classifier Model:**
 1. Very High True Negative Rate (361 True Negatives)
-- The model correctly predicted 361 customers who did not respond to the campaign.
-- This indicates strong performance in identifying non-responders, minimizing wasted marketing efforts.
+  - The model correctly predicted 361 customers who did not respond to the campaign.
+  - This indicates strong performance in identifying non-responders, minimizing wasted marketing efforts.
 2. Significantly Lower False Positives (14 False Positives)
-- The model incorrectly predicted 14 non-responders as responders, much lower than the logistic regression model.
-- This means fewer marketing resources are wasted on people unlikely to respond, improving efficiency.
+  - The model incorrectly predicted 14 non-responders as responders, much lower than the logistic regression model.
+  - This means fewer marketing resources are wasted on people unlikely to respond, improving efficiency.
 3. Lower Recall for Responders (37 True Positives)
-- The model correctly identified 37 actual responders, which is lower than the logistic regression model.
-- This suggests Random Forest is more conservative and less likely to classify a customer as a responder, potentially missing some real responders.
+  - The model correctly identified 37 actual responders, which is lower than the logistic regression model.
+  - This suggests Random Forest is more conservative and less likely to classify a customer as a responder, potentially missing some real responders.
 4. Higher False Negatives (29 Missed Responders)
-- There are 29 customers who actually responded but were misclassified as non-responders.
-- This means that some potential responders might not receive marketing efforts, leading to lost opportunities.
+  - There are 29 customers who actually responded but were misclassified as non-responders.
+  - This means that some potential responders might not receive marketing efforts, leading to lost opportunities.
 
 **Final Evaluation and Comparison of Both Predictive Models**
 Based on our predictive models, it is possible to predict whether people will respond to marketing campaigns using machine learning models. Both Logistic Regression and Random Forest Classifier demonstrated the ability to classify customer responses based on behavioral, demographic, and transactional features. While Logistic Regression showed higher recall, making it effective for identifying a larger portion of actual responders, Random Forest achieved higher precision, making it more suitable for targeting the most likely responders with minimal error. These results indicate that predictive models can support data-driven marketing strategies by forecasting customer behavior with a reasonable degree of accuracy and confidence.
