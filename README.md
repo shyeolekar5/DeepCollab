@@ -150,7 +150,13 @@ For more details on our EDA, please download the [1_EDA](https://github.com/shye
 
 ### Deep Learning Modeling
 #### K-Means Clustering
-After a thorough exploration of different clustering models and approaches, we decided to use a **K-means clustering model without a pipeline.** Our clustering model identified five distinct customer segments - differentiated by spending patterns, income levels, discount dependency, household size, campaign responsiveness, and web engagement. The following details each segment's key features, distribution (proportion in train and test datasets), insights, and actionable business takeaways as well as general observations from our clustering model results.
+After a thorough exploration of different clustering models and approaches, we decided to use a **K-means clustering model without a pipeline.** Our clustering model identified five distinct customer segments - differentiated by spending patterns, income levels, discount dependency, household size, campaign responsiveness, and web engagement. 
+
+<p align="center">
+  <img src="images/Z-score of features by Cluster.png" alt="Z-scores of features by Cluster">
+</p>
+
+The following details each segment's key features, distribution (proportion in train and test datasets), insights, and actionable business takeaways as well as general observations from our clustering model results.
 
 **Cluster 3: Discount-Driven Family Shoppers**
 
