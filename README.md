@@ -1,3 +1,4 @@
+# Customer Personality Analysis Using Machine Learning
 ## Table of Contents
 - [Project Overview and Objective](#project-overview-and-objective)
 - [Understanding The Data](#understanding-the-data)
@@ -88,7 +89,7 @@ Our approach to using DBSCAN to cluster our data consisted of:
 - Calculating a silhouette score and a Davies-Bouldin score to evaluate model and compare to our k-means clustering model.
 - Calculated cluster distribution and evaluated model stability to determine whether the model was worth using as the final clustering model.
 
-For more details on our DBSCAN clustering model, please look at <mark>[x]<mark> in our repo.
+For more details on our DBSCAN clustering model, please download the [3_DBSCAN_clustering_model](https://github.com/shyeolekar5/DeepCollab/blob/main/3_DBSCAN_clustering_model.ipynb) file in our repo.
 
 #### Predictive Models
 We conducted, evaluated and compared two predictive models, Logic Regression and Random Forest Classification. The same process of splitting data into training and testing sets, standardizing data and using SMOTE was used for both predictive models.
@@ -114,7 +115,9 @@ The following steps were taken for the pipeline automation approach:
 - Features were split into numerical and categorical categories. Features to drop and passthrough were identified.  
 - All preprocessing steps were chained together in a single object to ensure that steps were applied sequentially and uniformly across the dataset. 
 
-<mark>[INSERT IMAGE]<mark>
+<p align="center">
+  <img src="images/pipeline.jpg" alt="Pipeline">
+</p>
 
 We noticed that there were several benefits to this approach: 
 1. **Enhanced scalability:** The same pipeline could be reused for new datasets without re-writing code.
@@ -123,7 +126,7 @@ We noticed that there were several benefits to this approach:
 
 We plan to continue working on refining the pipeline and automating the steps.
 
-For more details on our pipeline automation, please look at <mark>[x]<mark> in our repo.
+For more details on our pipeline automation, please download the [5_Kmeans_clustering_with_pipeline](https://github.com/shyeolekar5/DeepCollab/blob/main/5_Kmeans_clustering_with_pipeline.ipynb) file in our repo.
 
 ## Key Findings & Conclusion
 ### Exploratory Data Analysis
@@ -139,9 +142,11 @@ These insights suggest that marketing should target **high-value shoppers with c
 
 Below is a comprehensive correlation matrix of customer features.
 
-<mark>[INSERT IMAGE]<mark>
+<p align="center">
+  <img src="images/eda_features_correlation_matrix.png" alt="Eda Features Correlation Matrix">
+</p>
 
-For more details on our EDA, please look at <mark>[x]<mark> in our repo.
+For more details on our EDA, please download the [1_EDA](https://github.com/shyeolekar5/DeepCollab/blob/main/1_EDA) file in our repo.
 
 ### Deep Learning Modeling
 #### K-Means Clustering
@@ -188,7 +193,7 @@ After a thorough exploration of different clustering models and approaches, we d
 - **Discount Dependency:** Lower-income clusters (2 and 3) rely heavily on discounts, while higher-income clusters (0, 1, 4) are less price-sensitive, offering opportunities for differentiated pricing strategies.
 - **Campaign Responsiveness:** Cluster 1 stands out as highly responsive to campaigns, while others show low engagement. This highlights the potential for targeted marketing to unlock value in specific segments.
 
-For more details on our K-means clustering model, please look at <mark>[x]<mark> in our repo.
+For more details on our K-means clustering model, please download the [2_Kmeans_clustering_model](https://github.com/shyeolekar5/DeepCollab/blob/main/2_Kmeans_clustering_model.ipynb) file in our repo.
 
 #### Predictive Modeling
 To provide additional business value from our dataset analysis, we also conducted predictive modeling on our dataset to determine how likely a customer would respond to a future marketing campaign.
@@ -209,13 +214,19 @@ Below are the individual and comparisons of each model's performance and key fin
 
 **Logic Regression vs. Random Forest Classifier Performance**
 
-<mark>[INSERT IMAGE]<mark>
+<p align="center">
+  <img src="images/predictive_models_performance_comparison.png" alt="Performance Comparison">
+</p>
 
 **Logic Regression**
 
-<mark>[INSERT IMAGE]<mark>
+<p align="center">
+  <img src="images/predictive_models_lr_confusion_matrix.png" alt="LR Confusion Matrix.png">
+</p>
 
-<mark>[INSERT IMAGE]<mark>
+<p align="center">
+  <img src="images/predictive_models_lr_results.png" alt="LR Results.png">
+</p>
 
 **Key findings from our Logistic Regression Model:**
 1. High True Negative Rate (315 True Negatives)
@@ -233,9 +244,13 @@ Below are the individual and comparisons of each model's performance and key fin
 
 **Random Forest Classifier Model**
 
-<mark>[INSERT IMAGE]<mark>
+<p align="center">
+  <img src="images/predictive_models_rf_confusion_matrix.png" alt="RF Confusion Matrix.png">
+</p>
 
-<mark>[INSERT IMAGE]<mark>
+<p align="center">
+  <img src="images/predictive_models_rf_results.png" alt="RF Results.png">
+</p>
 
 **Key findings from our Random Forest Classifier Model:**
 1. Very High True Negative Rate (361 True Negatives)
@@ -251,14 +266,10 @@ Below are the individual and comparisons of each model's performance and key fin
 - There are 29 customers who actually responded but were misclassified as non-responders.
 - This means that some potential responders might not receive marketing efforts, leading to lost opportunities.
 
-**Comparison of Confusion Matrices**
-
-<mark>[INSERT IMAGE]<mark>
-
 **Final Evaluation and Comparison of Both Predictive Models**
 Based on our predictive models, it is possible to predict whether people will respond to marketing campaigns using machine learning models. Both Logistic Regression and Random Forest Classifier demonstrated the ability to classify customer responses based on behavioral, demographic, and transactional features. While Logistic Regression showed higher recall, making it effective for identifying a larger portion of actual responders, Random Forest achieved higher precision, making it more suitable for targeting the most likely responders with minimal error. These results indicate that predictive models can support data-driven marketing strategies by forecasting customer behavior with a reasonable degree of accuracy and confidence.
 
-For more details on our predictive modeling, please look at <mark>[x]<mark> in our repo.
+For more details on our predictive modeling, please download the [4_predictive_models](https://github.com/shyeolekar5/DeepCollab/blob/main/4_predictive_models.ipynb) file in our repo.
 
 ## Conclusion
 Our project provides businesses with a powerful tool to enhance their marketing strategies through a deep understanding of customer shopping personalities. By using K-Means clustering to segment customers into distinct profiles and leveraging predictive models like logistic regression and random forest classifiers, we have enabled businesses to identify high-potential customer segments.
@@ -277,11 +288,11 @@ The ability to engage customers based on their individual preferences is a key d
 ### Team Members
 Team Member | GitHub | Email | Role & Responsibilities | Video
 --- | --- | --- | ---  | ---
-Fan(Echo) Yu | [echooocc](https://github.com/echooocc) | echo2go@gmail.com | <mark>[x]<mark> | <mark>[link to video]([x])<mark> |
-Kevin Lu | [kevinlutoronto](https://github.com/kevinlutoronto) | kevin.lu.toronto@gmail.com  | <mark>[x]<mark> | <mark>[link to video]([x])<mark> |
-Lauren Tonello | [ltonello](https://github.com/ltonello) | lauren.tonello@gmail.com | <mark>[x]<mark> | <mark>[link to video]([x])<mark> |
-Oi Yee(Frances) Chung | [franceschung](https://github.com/franceschung) | frances.chungoy@gmail.com | <mark>[x]<mark> | [[x]](https://youtu.be/MoLlZbpndkA?si=z3zhL3gwGWH_g5XU) |
-Shraddha Yeolekar | [shyeolekar5](https://github.com/shyeolekar5)| shraddha.goyani@gmail.com | <mark>[x]<mark> | <mark>[link to video]([x])<mark> |
+Fan(Echo) Yu | [echooocc](https://github.com/echooocc) | echo2go@gmail.com | Exploratory Data Analysis | <mark>[link to video]([x])<mark> |
+Kevin Lu | [kevinlutoronto](https://github.com/kevinlutoronto) | kevin.lu.toronto@gmail.com  | Predictive modeling | <mark>[link to video]([x])<mark> |
+Lauren Tonello | [ltonello](https://github.com/ltonello) | lauren.tonello@gmail.com | Project management, DBSCAN clustering | <mark>[link to video]([x])<mark> |
+Oi Yee(Frances) Chung | [franceschung](https://github.com/franceschung) | frances.chungoy@gmail.com | K-means clustering | [link to video](https://youtu.be/MoLlZbpndkA?si=z3zhL3gwGWH_g5XU) |
+Shraddha Yeolekar | [shyeolekar5](https://github.com/shyeolekar5)| shraddha.goyani@gmail.com | Preprocessing, pipeline automation and K-means clustering | <mark>[link to video]([x])<mark> |
 
 ## Team's Approach to Collaboration
 Our team’s approach to collaboration was centered around all project decisions and results being discussed as a team, but working individually on heads-down work to improve concentration and efficiency. We divided tasks such as exploratory data analysis (EDA), pipeline automation, and modeling, allowing each team member to work independently on their respective sections. After completing each phase, we came together to review the results and decide on the next steps. All approaches, findings, and results were shared and discussed among the team before making any decisions or moving forward. This ensured alignment, transparency, and collective input throughout the process.
