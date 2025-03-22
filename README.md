@@ -153,34 +153,36 @@ For more details on our EDA, please download the [1_EDA](https://github.com/shye
 After a thorough exploration of different clustering models and approaches, we decided to use a **K-means clustering model without a pipeline.** Our clustering model identified five distinct customer segments - differentiated by spending patterns, income levels, discount dependency, household size, campaign responsiveness, and web engagement. The following details each segment's key features, distribution (proportion in train and test datasets), insights, and actionable business takeaways as well as general observations from our clustering model results.
 
 **Cluster 3: Discount-Driven Family Shoppers**
-**Key Features:** Low spending ($187), low purchase frequency (7.80), high discount dependency (0.39), moderate-income ($42,709), largest households (3.50), low campaign response (4.0%), low complaints (0.009), high web visits (6.26).
-**Distribution:** Train: 25.30%, Test: 29.93%. (most common).
-**Insight:** The largest cluster, these price-sensitive customers rely heavily on discounts and have bigger households, driving lower per-person spending. High web visits reflect active deal-seeking behavior.
-**Business Takeaway:** Prioritize frequent online promotions and family-oriented deals to retain this dominant segment. Leverage their high web activity with targeted online promotions.
+
+- **Key Features:** Low spending ($187), low purchase frequency (7.80), high discount dependency (0.39), moderate-income ($42,709), largest households (3.50), low campaign response (4.0%), low complaints (0.009), high web visits (6.26).
+- **Distribution:** Train: 25.30%, Test: 29.93%. (most common).
+- **Insight:** The largest cluster, these price-sensitive customers rely heavily on discounts and have bigger households, driving lower per-person spending. High web visits reflect active deal-seeking behavior.
+- **Business Takeaway:** Prioritize frequent online promotions and family-oriented deals to retain this dominant segment. Leverage their high web activity with targeted online promotions.
 
 **Cluster 2: Budget-Conscious Low Spenders**
-**Key Features:** Very low spending ($112), low purchase frequency (6.08), high discount dependency (0.32), low income ($29,698), moderate household size (2.44), very low campaign response (3.2%), higher complaints (0.013), high web visits (6.93).
-**Distribution:** Train: 25.81%, Test: 26.76% (2nd most common).
-**Insight:** This large group spends the least, constrained by low income and reliant on discounts. Frequent web visits suggest they're hunting for value, while slightly higher complaints indicate some dissatisfaction.
-**Business Takeaway:** Offer low-cost products and aggressive online discounts, addressing complaints to improve retention.
+
+- **Key Features:** Very low spending ($112), low purchase frequency (6.08), high discount dependency (0.32), low income ($29,698), moderate household size (2.44), very low campaign response (3.2%), higher complaints (0.013), high web visits (6.93).
+- **Distribution:** Train: 25.81%, Test: 26.76% (2nd most common).
+- **Insight:** This large group spends the least, constrained by low income and reliant on discounts. Frequent web visits suggest they're hunting for value, while slightly higher complaints indicate some dissatisfaction.
+- **Business Takeaway:** Offer low-cost products and aggressive online discounts, addressing complaints to improve retention.
 
 **Cluster 4: Stable Middle-Income Spenders**
-**Key Features:** High spending ($1,046), moderate purchase frequency (18.26), low discount dependency (0.08), high income ($72,202), smaller households (2.04), low campaign response (4.0%), low complaints (0.008), low web visits (2.49).
-**Distribution:** Train: 21.67%, Test: 19.27% (3rd most common).
-**Insight:** This segment spends steadily with high income and minimal reliance on discounts or campaigns, suggesting they value quality or habit over deals. Their low web activity indicates a preference for traditional shopping channels (e.g., in-store).
-**Business Takeaway:** Maintain their loyalty with consistent, quality-focused offerings through offline channels.
+- **Key Features:** High spending ($1,046), moderate purchase frequency (18.26), low discount dependency (0.08), high income ($72,202), smaller households (2.04), low campaign response (4.0%), low complaints (0.008), low web visits (2.49).
+- **Distribution:** Train: 21.67%, Test: 19.27% (3rd most common).
+- **Insight:** This segment spends steadily with high income and minimal reliance on discounts or campaigns, suggesting they value quality or habit over deals. Their low web activity indicates a preference for traditional shopping channels (e.g., in-store).
+- **Business Takeaway:** Maintain their loyalty with consistent, quality-focused offerings through offline channels.
 
 **Cluster 0: Engaged Middle-Income Spenders**
-**Key Features:** High spending ($964), high purchase frequency (18.91), moderate discount dependency (0.16), solid income ($60,267), moderate household size (2.53), low campaign response (6.4%), very low complaints (0.006), moderate web visits (5.82).
-**Distribution:** Train: 19.12%, Test: 16.55%. (4th most common).
-**Insight:** These customers are active spenders with a slightly higher responsiveness to campaigns compared to Cluster 0. They're middle-income with moderate online engagement. Their discount dependency is low-to-moderate, suggesting they're selective but not entirely price-driven.
-**Business Takeaway:** Target this group with tailored campaigns (since they've shown some responsiveness) and enhance their online experience to boost web purchases, given their moderate web activity.
+- **Key Features:** High spending ($964), high purchase frequency (18.91), moderate discount dependency (0.16), solid income ($60,267), moderate household size (2.53), low campaign response (6.4%), very low complaints (0.006), moderate web visits (5.82).
+- **Distribution:** Train: 19.12%, Test: 16.55%. (4th most common).
+- **Insight:** These customers are active spenders with a slightly higher responsiveness to campaigns compared to Cluster 0. They're middle-income with moderate online engagement. Their discount dependency is low-to-moderate, suggesting they're selective but not entirely price-driven.
+- **Business Takeaway:** Target this group with tailored campaigns (since they've shown some responsiveness) and enhance their online experience to boost web purchases, given their moderate web activity.
 
 **Cluster 1: Affluent High-Spending Responders**
-**Key Features:** Very high spending ($1,593), high purchase frequency (19.70), low discount dependency (0.06), highest income ($80,686), smallest households (1.71), very high campaign response (45.9%), low complaints (0.007), low web visits (3.34).
-**Distribution:** Train: 8.11%, Test: 7.48% (least common).
-**Insight:** The smallest cluster, these affluent customers spend heavily, respond strongly to campaigns, and don't rely on discounts. Small households and low web visits point to a focus on quality and offline shopping.
-**Business Takeaway:** Invest heavily in personalized campaigns (e.g., exclusive offers, loyalty rewards) for this group, as they're highly responsive and profitable. Focus on offline channels like catalogs or in-store experiences.
+- **Key Features:** Very high spending ($1,593), high purchase frequency (19.70), low discount dependency (0.06), highest income ($80,686), smallest households (1.71), very high campaign response (45.9%), low complaints (0.007), low web visits (3.34).
+- **Distribution:** Train: 8.11%, Test: 7.48% (least common).
+- **Insight:** The smallest cluster, these affluent customers spend heavily, respond strongly to campaigns, and don't rely on discounts. Small households and low web visits point to a focus on quality and offline shopping.
+- **Business Takeaway:** Invest heavily in personalized campaigns (e.g., exclusive offers, loyalty rewards) for this group, as they're highly responsive and profitable. Focus on offline channels like catalogs or in-store experiences.
 
 **General Observations**
 - **Uniform Features Across Clusters:**
@@ -203,11 +205,13 @@ Our predictive models predict customer response to marketing campaigns by using 
 - **Random Forest Classifier:** is an ensemble learning method that reduces overfitting and improves accuracy by averaging multiple decision trees.
 
 **Additional Preprocessing and Feature Engineering**
+
 The dataset was first further preprocessed by removing irrelevant columns, handling missing values, and encoding categorical variables. Additional feature engineering was applied by creating new features like Total Spending, Discount Dependency, and Loyalty Months to capture customer behavior more effectively.
 
 To ensure fair model training, StandardScaler was used to normalize numerical features, making sure that features with different units or scales did not dominate the model. Additionally, because the dataset was imbalanced (i.e., there are more non-responders than responders) SMOTE (Synthetic Minority Oversampling Technique) was applied to balance the dataset by generating synthetic samples for the minority class (responders). This helped prevent the model from biasing towards the majority class (non-responders) and improved its ability to detect actual responders.
 
 **Hyperparameter Tuning**
+
 Once the data was processed, GridSearchCV was used to tune hyperparameters for both models, ensuring optimal performance. The trained models were then evaluated using accuracy, precision, recall, F1-score, and ROC AUC score to measure their effectiveness. Confusion matrices were plotted to visually assess the number of true positives, false positives, true negatives, and false negatives. The results indicated that while Logistic Regression had better recall (finding more actual responders), Random Forest Classifier provided better precision (more confident positive predictions). The combination of scaling, SMOTE, and hyperparameter tuning enhanced the predictive power of the models, ensuring a more effective marketing campaign strategy.
 
 Below are the individual and comparisons of each model's performance and key findings.
@@ -230,17 +234,17 @@ Below are the individual and comparisons of each model's performance and key fin
 
 **Key findings from our Logistic Regression Model:**
 1. High True Negative Rate (315 True Negatives)
-  - The model correctly identified 315 customers who did not respond to the marketing campaign.
-  - This suggests that the model is good at recognizing non-responders, which is beneficial for reducing wasted marketing efforts.
+    - The model correctly identified 315 customers who did not respond to the marketing campaign.
+    - This suggests that the model is good at recognizing non-responders, which is beneficial for reducing wasted marketing efforts.
 2. Moderate False Positive Rate (60 False Positives)
-  - The model incorrectly predicted 60 customers as responders when they actually did not respond.
-  - This means the campaign could target some customers who are unlikely to respond, potentially leading to inefficient marketing resource allocation.
+    - The model incorrectly predicted 60 customers as responders when they actually did not respond.
+    - This means the campaign could target some customers who are unlikely to respond, potentially leading to inefficient marketing resource allocation.
 3. Strong Recall for Responders (52 True Positives)
-  - The model correctly predicted 52 actual responders, meaning it effectively captures a large portion of customers who will respond.
-  - This is valuable because identifying actual responders helps in maximizing marketing impact.
+    - The model correctly predicted 52 actual responders, meaning it effectively captures a large portion of customers who will respond.
+    - This is valuable because identifying actual responders helps in maximizing marketing impact.
 4. False Negatives (14 Missed Responders)
-  - There are 14 customers who would have responded but were misclassified as non-responders.
-  - These potential customers might be missed opportunities if marketing efforts are not extended to them.
+    - There are 14 customers who would have responded but were misclassified as non-responders.
+    - These potential customers might be missed opportunities if marketing efforts are not extended to them.
 
 **Random Forest Classifier Model**
 
@@ -254,19 +258,20 @@ Below are the individual and comparisons of each model's performance and key fin
 
 **Key findings from our Random Forest Classifier Model:**
 1. Very High True Negative Rate (361 True Negatives)
-  - The model correctly predicted 361 customers who did not respond to the campaign.
-  - This indicates strong performance in identifying non-responders, minimizing wasted marketing efforts.
+    - The model correctly predicted 361 customers who did not respond to the campaign.
+    - This indicates strong performance in identifying non-responders, minimizing wasted marketing efforts.
 2. Significantly Lower False Positives (14 False Positives)
-  - The model incorrectly predicted 14 non-responders as responders, much lower than the logistic regression model.
-  - This means fewer marketing resources are wasted on people unlikely to respond, improving efficiency.
+    - The model incorrectly predicted 14 non-responders as responders, much lower than the logistic regression model.
+    - This means fewer marketing resources are wasted on people unlikely to respond, improving efficiency.
 3. Lower Recall for Responders (37 True Positives)
-  - The model correctly identified 37 actual responders, which is lower than the logistic regression model.
-  - This suggests Random Forest is more conservative and less likely to classify a customer as a responder, potentially missing some real responders.
+    - The model correctly identified 37 actual responders, which is lower than the logistic regression model.
+    - This suggests Random Forest is more conservative and less likely to classify a customer as a responder, potentially missing some real responders.
 4. Higher False Negatives (29 Missed Responders)
-  - There are 29 customers who actually responded but were misclassified as non-responders.
-  - This means that some potential responders might not receive marketing efforts, leading to lost opportunities.
+    - There are 29 customers who actually responded but were misclassified as non-responders.
+    - This means that some potential responders might not receive marketing efforts, leading to lost opportunities.
 
 **Final Evaluation and Comparison of Both Predictive Models**
+
 Based on our predictive models, it is possible to predict whether people will respond to marketing campaigns using machine learning models. Both Logistic Regression and Random Forest Classifier demonstrated the ability to classify customer responses based on behavioral, demographic, and transactional features. While Logistic Regression showed higher recall, making it effective for identifying a larger portion of actual responders, Random Forest achieved higher precision, making it more suitable for targeting the most likely responders with minimal error. These results indicate that predictive models can support data-driven marketing strategies by forecasting customer behavior with a reasonable degree of accuracy and confidence.
 
 For more details on our predictive modeling, please download the [4_predictive_models](https://github.com/shyeolekar5/DeepCollab/blob/main/4_predictive_models.ipynb) file in our repo.
