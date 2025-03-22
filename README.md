@@ -1,4 +1,4 @@
-# Customer Personality Analysis using Machine Learning
+# Customer Personality Analysis Using Machine Learning
 
 ## Table of Contents
 - [Project Overview and Objective](#project-overview-and-objective)
