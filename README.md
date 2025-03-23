@@ -301,7 +301,7 @@ The ability to engage customers based on their individual preferences is a key d
 Team Member | GitHub | Email | Role & Responsibilities | Video
 --- | --- | --- | ---  | ---
 Fan(Echo) Yu | [echooocc](https://github.com/echooocc) | echo2go@gmail.com | Exploratory Data Analysis | <mark>[link to video]([x])<mark> |
-Kevin Lu | [kevinlutoronto](https://github.com/kevinlutoronto) | kevin.lu.toronto@gmail.com  | Predictive modeling | <mark>[link to video]([x])<mark> |
+Kevin Lu | [kevinlutoronto](https://github.com/kevinlutoronto) | kevin.lu.toronto@gmail.com  | Predictive modeling | <mark>[link to video](https://drive.google.com/file/d/1f6eK6OzTB7ZJNnTzCLxWIwk0x6-3ebPM/view?usp=sharing)<mark> |
 Lauren Tonello | [ltonello](https://github.com/ltonello) | lauren.tonello@gmail.com | Project management, DBSCAN clustering | <mark>[link to video]([x])<mark> |
 Oi Yee(Frances) Chung | [franceschung](https://github.com/franceschung) | frances.chungoy@gmail.com | K-means clustering | [link to video](https://youtu.be/MoLlZbpndkA?si=z3zhL3gwGWH_g5XU) |
 Shraddha Yeolekar | [shyeolekar5](https://github.com/shyeolekar5)| shraddha.goyani@gmail.com | Preprocessing, pipeline automation and K-means clustering | <mark>[link to video]([x])<mark> |
