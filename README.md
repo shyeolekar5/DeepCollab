@@ -300,11 +300,11 @@ The ability to engage customers based on their individual preferences is a key d
 ### Team Members
 Team Member | GitHub | Email | Role & Responsibilities | Video
 --- | --- | --- | ---  | ---
-Fan(Echo) Yu | [echooocc](https://github.com/echooocc) | echo2go@gmail.com | Exploratory Data Analysis | <mark>[link to video](https://www.loom.com/share/9aa9461c65554d1c9525363f8529ff72)<mark> |
-Kevin Lu | [kevinlutoronto](https://github.com/kevinlutoronto) | kevin.lu.toronto@gmail.com  | Predictive modeling | <mark>[link to video](https://drive.google.com/file/d/1f6eK6OzTB7ZJNnTzCLxWIwk0x6-3ebPM/view?usp=sharing)<mark> |
-Lauren Tonello | [ltonello](https://github.com/ltonello) | lauren.tonello@gmail.com | Project management, DBSCAN clustering | <mark>[link to video]([x])<mark> |
+Fan(Echo) Yu | [echooocc](https://github.com/echooocc) | echo2go@gmail.com | Exploratory Data Analysis | [link to video](https://www.loom.com/share/9aa9461c65554d1c9525363f8529ff72) |
+Kevin Lu | [kevinlutoronto](https://github.com/kevinlutoronto) | kevin.lu.toronto@gmail.com  | Predictive modeling | [link to video](https://drive.google.com/file/d/1f6eK6OzTB7ZJNnTzCLxWIwk0x6-3ebPM/view?usp=sharing) |
+Lauren Tonello | [ltonello](https://github.com/ltonello) | lauren.tonello@gmail.com | Project management, DBSCAN clustering | [link to video](https://drive.google.com/file/d/1mzHbRExpZ4LFj72ypWeYikVoI01f1tl4/view?usp=drive_link) |
 Oi Yee(Frances) Chung | [franceschung](https://github.com/franceschung) | frances.chungoy@gmail.com | K-means clustering | [link to video](https://youtu.be/MoLlZbpndkA?si=z3zhL3gwGWH_g5XU) |
-Shraddha Yeolekar | [shyeolekar5](https://github.com/shyeolekar5)| shraddha.goyani@gmail.com | Preprocessing, pipeline automation and K-means clustering | <mark>[link to video](https://drive.google.com/file/d/1BIqVLKCBildDjYjpXtbbV_QARXO3rX1N/view?usp=drivesdk)<mark> |
+Shraddha Yeolekar | [shyeolekar5](https://github.com/shyeolekar5)| shraddha.goyani@gmail.com | Preprocessing, pipeline automation and K-means clustering | [link to video](https://drive.google.com/file/d/1BIqVLKCBildDjYjpXtbbV_QARXO3rX1N/view?usp=drivesdk) |
 
 ## Team's Approach to Collaboration
 Our team’s approach to collaboration was centered around all project decisions and results being discussed as a team, but working individually on heads-down work to improve concentration and efficiency. We divided tasks such as exploratory data analysis (EDA), pipeline automation, and modeling, allowing each team member to work independently on their respective sections. After completing each phase, we came together to review the results and decide on the next steps. All approaches, findings, and results were shared and discussed among the team before making any decisions or moving forward. This ensured alignment, transparency, and collective input throughout the process.
